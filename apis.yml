@@ -1,21 +1,60 @@
 aid: lingxi-linc-well
-name: LingXi (Linc Well)
-description: 'LingXi (Linc Well) is a company surfaced as a portfolio company of dcm-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Linc'well
+x-alt-names:
+- LingXi (Linc Well)
+- 株式会社Linc'well
+- Linc'well, Inc.
+description: >-
+  Linc'well, Inc. (株式会社Linc'well) is a Tokyo-based healthcare technology company founded in January
+  2018 whose stated mission is to take healthcare one step further through technology. It operates a
+  healthcare platform that connects medical professionals with patients across online and offline care,
+  organized into three business lines: a telehealth platform licensed to medical institutions, where
+  patients complete everything from booking to consultation on web, smartphone, or tablet, pay by credit
+  card or pay-later, and have medication delivered or dispensed at a local pharmacy; a Smart Clinic
+  clinic-DX service that digitizes core primary-care operations including appointment booking, medical
+  intake, payment, and medical record entry; and a healthcare e-commerce business covering cosmetics,
+  contact lenses, over-the-counter medicines, online medication guidance, and prescription dispensing.
+  Linc'well runs the CLINIC FOR clinic brand and the miteme commerce and pharmacy properties, and is
+  backed by DCM Ventures. It publishes no public API, developer portal, or machine-readable API
+  specification; integration is a commercial arrangement with medical institutions.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://linc-well.com/assets/ogp.png
 url: https://raw.githubusercontent.com/api-evangelist/lingxi-linc-well/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - dcm-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: >-
+  Enriched 2026-07-19. Verified closed platform: no public API, no developer portal, no /.well-known/
+  resources, no first-party SDK. Company identity, product surface, blog, GitHub org, and policy pages
+  captured.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Consumer
+- Healthcare
+- Health Technology
+- Telehealth
+- Telemedicine
+- Digital Health
+- Clinics
+- Pharmacy
+- E-Commerce
+- Japan
+- Private Company
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +64,34 @@ maintainers:
 common:
 - type: Website
   url: https://linc-well.com/en/
+- type: Blog
+  url: https://note.linc-well.com
+- type: BlogRSS
+  url: https://note.com/lincwell/rss
+- type: GitHubOrganization
+  url: https://github.com/lincwell
+- type: Support
+  url: https://linc-well.com/en/contact/
+- type: PrivacyPolicy
+  url: https://linc-well.com/en/privacy-policy/
+- type: SecurityPolicy
+  url: https://linc-well.com/en/security-policy/
+- type: About
+  url: https://linc-well.com/en/company/
+- type: Products
+  url: https://linc-well.com/en/service/
+- type: News
+  url: https://linc-well.com/en/news/
+- type: Careers
+  url: https://linc-well.com/recruit/
+- type: DomainSecurity
+  url: security/lingxi-linc-well-domain-security.yml
+- type: Packages
+  url: packages/lingxi-linc-well-packages.yml
+- type: LLMsTxt
+  url: llms/lingxi-linc-well-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
