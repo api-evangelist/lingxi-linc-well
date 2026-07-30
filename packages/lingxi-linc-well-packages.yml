@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: >-
+  npm, PyPI, RubyGems, GitHub (github.com/lincwell) — searched 2026-07-19
+summary: >-
+  Linc'well publishes no first-party client libraries or SDKs. The company runs
+  a closed healthcare platform (telehealth, clinic DX, healthcare e-commerce)
+  with no public API, so there is nothing for a client library to wrap. Their
+  GitHub organization carries three public repositories, none of which is a
+  first-party SDK for a Linc'well API.
+registries_searched:
+- registry: npm
+  queries: [lincwell, linc-well, clinicfor]
+  official_packages: 0
+- registry: PyPI
+  queries: [lincwell, clinicfor]
+  official_packages: 0
+- registry: RubyGems
+  queries: [orca-api, orca_api, orca]
+  official_packages: 0
+packages: []
+repositories:
+- name: orca-api
+  url: https://github.com/lincwell/orca-api
+  language: Ruby
+  official: false
+  role: fork/mirror
+  description: >-
+    Ruby library for the API exposed by 日医標準レセプトソフト (ORCA), the Japan Medical
+    Association's standard medical receipt software. Upstream project is the
+    community-maintained github.com/orca-api/orca-api — the README instructs
+    cloning the upstream repo, so this is a fork/mirror rather than a Linc'well
+    original. Apache License 2.0. Not published to RubyGems under this name.
+- name: frontend-coding-guideline
+  url: https://github.com/lincwell/frontend-coding-guideline
+  official: true
+  role: internal-engineering-standards
+  description: Linc'well Frontend Coding Rules — published internal style guide, not a package.
+- name: rubykaigi2026-puzzle
+  url: https://github.com/lincwell/rubykaigi2026-puzzle
+  official: true
+  role: conference-demo
+  description: Ruby Method Chain Quiz App built for RubyKaigi 2026 — developer-relations demo, not a package.
+notes: >-
+  No `SDKs` pointer is emitted in apis.yml: the sdk_count check requires at
+  least one official first-party SDK, and none exists. The only API-client code
+  in the org wraps a third-party national system (ORCA), not a Linc'well API.

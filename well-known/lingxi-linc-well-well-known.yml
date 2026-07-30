@@ -1,0 +1,58 @@
+generated: '2026-07-19'
+method: searched
+source: live HTTP probes of linc-well.com and www.clinicfor.life
+summary: >-
+  No /.well-known/ resources are published on either the corporate domain
+  (linc-well.com) or the consumer product domain (www.clinicfor.life). Linc'well
+  operates a closed B2B2C healthcare platform with no public developer surface,
+  so there is no security.txt, OpenID discovery document, OAuth authorization
+  server metadata, API catalog, or AI plugin manifest to capture. Recorded as a
+  verified negative so later pipeline rounds do not re-probe blindly.
+hosts:
+- host: linc-well.com
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+- host: www.clinicfor.life
+  probes:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /llms.txt
+    status: 404
+    file: null
+subdomains_probed:
+- host: developer.linc-well.com
+  resolves: false
+- host: api.linc-well.com
+  resolves: false
+- host: docs.linc-well.com
+  resolves: false
+- host: dev.linc-well.com
+  resolves: false
+notes: >-
+  No apis.yml pointer of type WellKnown or SecurityTxt is emitted, because
+  nothing is actually published. This file exists to record the probe result,
+  not to satisfy a scoring check.
