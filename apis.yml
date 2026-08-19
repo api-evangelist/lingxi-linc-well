@@ -39,7 +39,7 @@ x-tier-reason: >-
   Enriched 2026-07-19. Verified closed platform: no public API, no developer portal, no /.well-known/
   resources, no first-party SDK. Company identity, product surface, blog, GitHub org, and policy pages
   captured.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
