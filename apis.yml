@@ -17,6 +17,17 @@ description: >-
   Linc'well runs the CLINIC FOR clinic brand and the miteme commerce and pharmacy properties, and is
   backed by DCM Ventures. It publishes no public API, developer portal, or machine-readable API
   specification; integration is a commercial arrangement with medical institutions.
+deliveryModel:
+  model: library
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Library · distributed through package registries, no callable service
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
