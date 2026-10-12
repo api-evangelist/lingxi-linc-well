@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/lingxi-linc-well/integrations
+- https://zapier.com/apps/linc-well/integrations
+- https://n8n.io/integrations/lingxi-linc-well/
+- https://composio.dev/toolkits/lingxi-linc-well
+- https://monid.ai/tools/lingxi-linc-well
+checked:
+- https://composio.dev/toolkits/lingxi-linc-well
+- https://monid.ai/tools/lingxi-linc-well
+- https://n8n.io/integrations/lingxi-linc-well/
+- https://zapier.com/apps/linc-well/integrations
+- https://zapier.com/apps/lingxi-linc-well/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
