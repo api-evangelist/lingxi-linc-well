@@ -2,13 +2,6 @@
   "repo": "lingxi-linc-well",
   "feeds": [
     {
-      "source": "https://linc-well.com/en/",
-      "feed_url": "https://linc-well.com/en/",
-      "title": "",
-      "saved": 0,
-      "method": "none"
-    },
-    {
       "source": "https://note.linc-well.com",
       "feed_url": "https://note.linc-well.com/rss",
       "title": "",
@@ -16,15 +9,29 @@
       "method": "discovered"
     },
     {
+      "source": "https://note.com/lincwell/rss",
+      "feed_url": "https://note.com/lincwell/rss",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://note.linc-well.com/rss",
       "feed_url": "https://note.linc-well.com/rss",
       "title": "",
       "saved": 0,
       "method": "feed"
+    },
+    {
+      "source": "https://linc-well.com/en/",
+      "feed_url": "https://linc-well.com/en/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 37,
-  "fetched": "2026-10-03T12:30:02Z",
+  "fetched": "2026-10-10T13:15:00Z",
   "feed_nature": "undetermined",
   "feed_nature_basis": null,
   "feed_nature_note": "Whether these posts are the vendor publishing or its support community, decided on the URL path grammar of the saved posts -- not the hostname, which carries both on Khoros, and not author diversity, which flags large vendor blogs as forums. 'undetermined' means undetermined."
