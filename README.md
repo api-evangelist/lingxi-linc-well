@@ -1,4 +1,4 @@
-# LingXi (Linc Well)
+# Linc'well
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-LingXi (Linc Well) is a company surfaced as a portfolio company of dcm-ventures and added to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.
+Linc'well, Inc. (株式会社Linc'well) is a Tokyo-based healthcare technology company founded in January 2018 whose stated mission is to take healthcare one step further through technology. It operates a healthcare platform that connects medical professionals with patients across online and offline care, organized into three business lines: a telehealth platform licensed to medical institutions, where patients complete everything from booking to consultation on web, smartphone, or tablet, pay by credit card or pay-later, and have medication delivered or dispensed at a local pharmacy; a Smart Clinic clinic-DX service that digitizes core primary-care operations including appointment booking, medical intake, payment, and medical record entry; and a healthcare e-commerce business covering cosmetics, contact lenses, over-the-counter medicines, online medication guidance, and prescription dispensing. Linc'well runs the CLINIC FOR clinic brand and the miteme commerce and pharmacy properties, and is backed by DCM Ventures. It publishes no public API, developer portal, or machine-readable API specification; integration is a commercial arrangement with medical institutions.
 
-Backed by: dcm-ventures — https://linc-well.com/en/
+**Areas:** Company · Consumer · Healthcare · Health Tech · Telehealth · Digital Health · Clinics · Pharmacy · E-Commerce · Japan · Private Company
+
+## Linc'well on APIs.io
+
+Everything profiled for Linc'well is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lingxi-linc-well/](https://apis.io/providers/lingxi-linc-well/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lingxi Linc Well Domain Security](https://apis.io/security/lingxi-linc-well/lingxi-linc-well-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://linc-well.com/en/)
+- [Support](https://linc-well.com/en/contact/)
+- [Blog](https://note.linc-well.com)
+- [Privacy policy](https://linc-well.com/en/privacy-policy/)
+- [GitHub](https://github.com/lincwell)
+
+## API Evangelist rating
+
+**Kin Score 10.2** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 10.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 7.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lingxi-linc-well/](https://apis.io/providers/lingxi-linc-well/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Linc'well: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lingxi-linc-well/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
